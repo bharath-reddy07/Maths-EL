@@ -1,7 +1,13 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
 /* Title-section */
 #title{
   background-color: #5463FF;
   padding-bottom: 30px;
+  width: 100%
 }
 .RVlogo{
   width: 110px;
@@ -215,4 +221,7 @@ mjx-container {
   font-family: "League Spartan";
   font-size: 0.8rem;
   color: white;
+}
+.picture{
+  padding-top: 20px;
 }
